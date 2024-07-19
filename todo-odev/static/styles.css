@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#todos {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todos li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.completed {
+    text-decoration: line-through;
+}
